@@ -1,0 +1,10 @@
+API,Application Programming Interface - a set of protocols for building software,backend,programming
+CSS,Cascading Style Sheets - used for styling web pages,frontend,web,styling
+HTML,HyperText Markup Language - the standard markup language for web pages,frontend,web,markup
+JavaScript,A programming language for web development,programming,javascript,frontend
+React,A JavaScript library for building user interfaces,frontend,javascript,ui,library
+TypeScript,A typed superset of JavaScript,programming,javascript,types
+Firebase,A platform for building mobile and web applications,backend,database,cloud
+Vite,A build tool and dev server for modern web projects,frontend,tooling,build
+Tailwind CSS,A utility-first CSS framework,frontend,styling,css
+shadcn/ui,A collection of re-usable components built with Radix UI and Tailwind CSS,frontend,ui,components
