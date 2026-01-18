@@ -158,7 +158,7 @@ export function CsvUploader() {
         type="button"
       >
         <Upload className="h-4 w-4 mr-2" />
-        {isUploading ? "Uploading..." : "Import new terms"}
+        {isUploading ? "Uploading..." : "Import terms"}
       </Button>
 
       {/* Hover tooltip with instructions */}

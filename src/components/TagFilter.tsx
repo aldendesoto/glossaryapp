@@ -1,5 +1,5 @@
 import { Badge } from "./ui/badge"
-import { Select } from "./ui/select"
+import { Switch } from "./ui/switch"
 import { TagFilterLogic } from "../types"
 
 interface TagFilterProps {
@@ -39,14 +39,12 @@ export function TagFilter({
     <div className="space-y-3">
       <div className="flex items-center gap-3">
         <label className="text-sm font-medium">Filter by tags:</label>
-        <Select
-          value={logic}
-          onChange={(e) => onLogicChange(e.target.value as TagFilterLogic)}
-          className="w-32"
-        >
-          <option value="AND">AND (all)</option>
-          <option value="OR">OR (any)</option>
-        </Select>
+        <Switch
+          checked={logic === "AND"}
+          onCheckedChange={(checked) => onLogicChange(checked ? "AND" : "OR")}
+          leftLabel="OR"
+          rightLabel="AND"
+        />
       </div>
       <div className="flex flex-wrap gap-2">
         {sortedTags.map((tag) => {
