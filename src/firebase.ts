@@ -40,15 +40,15 @@ import {
 } from 'firebase/firestore';
 import { GlossaryTerm } from './types';
 
-// Firebase configuration for glossary-2badc project
+// TODO: Replace this with your Firebase config from the Firebase Console
+// Go to Project Settings > General > Your apps > Web app to get your config
 const firebaseConfig = {
-  apiKey: "AIzaSyAJT6wUKsxYjSOQUBCDHdVrNpu_WMju-Gs",
-  authDomain: "glossary-2badc.firebaseapp.com",
-  projectId: "glossary-2badc",
-  storageBucket: "glossary-2badc.firebasestorage.app",
-  messagingSenderId: "645607967170",
-  appId: "1:645607967170:web:c152d7d5f8048421472e5b",
-  measurementId: "G-7SDEDLM7RN"
+  apiKey: "your-api-key",
+  authDomain: "your-project.firebaseapp.com",
+  projectId: "your-project-id",
+  storageBucket: "your-project.appspot.com",
+  messagingSenderId: "123456789",
+  appId: "your-app-id"
 };
 
 // Initialize Firebase
